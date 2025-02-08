@@ -1,0 +1,181 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ RidgeView {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_sMapLocationName "Test Base"
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 2171.624 1367.976 2932.339
+ }
+ MOB_SE {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+   }
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    DisplayName "MOB"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    m_bIsSource 1
+   }
+  }
+  coords 1051.299 1215 1691.937
+ }
+ SouthLanding {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1359.2
+     }
+    }
+   }
+  }
+  coords 2794.125 580.821 4202.335
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
+ }
+ Cliffside {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Cliffside"
+    m_sBaseNameUpper "CLIFFSIDE"
+    m_sMapLocationName "South Cliffside"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1253.6
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+  }
+  coords 1875.891 988.844 3664.933
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+  }
+ }
+ MOB_NE {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "MOBTEST"
+    m_sBaseNameUpper "MOBTEST"
+    m_sMapLocationName "MOBTEST"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    m_bIsSource 1
+   }
+  }
+  coords 7411.545 1022.562 7364.758
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 4044.622 580.803 4307.903
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 4984.333 577.408 3200.222
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 5214.64 788.729 5274.444
+ }
+ {
+  coords 5619.116 1136.527 5767.794
+ }
+ {
+  coords 5979.833 1458.25 6481.065
+ }
+ {
+  coords 6877.376 1294.321 6753.366
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+   }
+  }
+  coords 4612.543 581.876 4655.882
+ }
+ Sandy_Perch {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_sBaseName "Sandy Perch"
+    m_sBaseNameUpper "SANDY PERCH"
+    m_sMapLocationName "Sandy Perch"
+   }
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    DisplayName "Sandy Perch"
+   }
+  }
+  coords 1848.834 1160.187 3556.516
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angleY -138.967
+   }
+  }
+ }
+}
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ coords 4018.867 597.696 4315.623
+ angleY 179.495
+}

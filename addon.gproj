@@ -1,0 +1,22 @@
+GameProject {
+ ID "VolcanoLaCumbre"
+ GUID "64890C7018CACD03"
+ TITLE "Volcano_LaCumbre"
+ Dependencies {
+  "58D0FB3206B6F859" "5E72B9AF7AD0CC29" "5D84C738432BFE6A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
