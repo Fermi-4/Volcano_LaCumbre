@@ -11,10 +11,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 2171.624 1367.976 2932.339
  }
- MOB_SE {
+ MOB_SW {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bCanBeHQ 1
+    m_sBaseName "MOB_SW"
+    m_sBaseNameUpper "MOB_SW"
+    m_sMapLocationName "MOB"
    }
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     DisplayName "MOB"
