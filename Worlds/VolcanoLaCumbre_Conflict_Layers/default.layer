@@ -71,6 +71,82 @@ SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/M
   }
  }
 }
+PolylineShapeEntity {
+ coords 3975.473 575.503 5295.822
+ Points {
+  ShapePoint "{6491738134B59AFD}" {
+   Position 34.367 0.28 9.358
+  }
+  ShapePoint "{6491738134B579B5}" {
+   Position 6.865 0.33 3.69
+  }
+  ShapePoint "{6491738131EBBB9E}" {
+   Position 13.642 0.79 -4.367
+  }
+  ShapePoint "{6491738130955A89}" {
+   Position 20.707 1.629 -14.899
+  }
+  ShapePoint "{649173813303A068}" {
+   Position 23.012 2.884 -29.089
+  }
+  ShapePoint "{64917381336D00C0}" {
+   Position 26.546 4.2 -40.959
+  }
+  ShapePoint "{6491738132D2B1A3}" {
+   Position 26.234 4.899 -49.382
+  }
+  ShapePoint "{649173810DBC19F5}" {
+   Position 22.951 5.762 -55.778
+  }
+  ShapePoint "{649173810C120E96}" {
+   Position 16.77 7.231 -62.938
+  }
+  ShapePoint "{649173810C77FDED}" {
+   Position 6.867 8.867 -64.789
+  }
+  ShapePoint "{649173810CCF1A3E}" {
+   Position -1.757 8.686 -57.345
+  }
+  ShapePoint "{6491738109C805AE}" {
+   Position -3.85 8.357 -50.626
+  }
+  ShapePoint "{6491738108001765}" {
+   Position -4.687 9.046 -42.275
+  }
+  ShapePoint "{649173810B2DB4A5}" {
+   Position -21.232 4.061 -24.789
+  }
+  ShapePoint "{649173810BEB57D6}" {
+   Position -48.616 4.513 -15.447
+  }
+  ShapePoint "{649173810435E187}" {
+   Position -78.382 4.005 8.49
+  }
+  ShapePoint "{64917381067A46A3}" {
+   Position -87.902 8.121 44.613
+  }
+  ShapePoint "{6491738100CD7353}" {
+   Position -76.443 7.827 62.816
+  }
+  ShapePoint "{649173810343965D}" {
+   Position -61.177 5.734 65.796
+  }
+  ShapePoint "{6491738103A42507}" {
+   Position -44.093 6.294 81.104
+  }
+  ShapePoint "{6491738102A4A180}" {
+   Position 1.794 1.672 73.433
+  }
+  ShapePoint "{649173811C9EA6C5}" {
+   Position 32.5 -0.133 22.434
+  }
+ }
+ {
+  LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+   coords 0 0 0
+  }
+ }
+}
 $grp SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
  {
   coords 991.387 912.841 637.701
