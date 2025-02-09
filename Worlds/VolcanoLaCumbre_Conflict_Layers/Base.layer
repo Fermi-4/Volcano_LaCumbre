@@ -11,10 +11,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 2171.624 1367.976 2932.339
  }
- MOB_SE {
+ MOB_SW {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bCanBeHQ 1
+    m_sBaseName "MOB_SW"
+    m_sBaseNameUpper "MOB_SW"
+    m_sMapLocationName "MOB"
    }
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     DisplayName "MOB"
@@ -110,7 +113,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsSource 1
    }
   }
-  coords 7411.545 1022.562 7364.758
+  coords 7310.964 1346 7348.239
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -25.466 0
+   }
+  }
  }
  {
   components {
@@ -120,10 +129,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 4044.622 580.803 4307.903
  }
- {
+ SandDune {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_sBaseName "Sand Dune"
+    m_sBaseNameUpper "SAND DUNE"
+    m_sMapLocationName "Sand Dune"
    }
   }
   coords 4984.333 577.408 3200.222

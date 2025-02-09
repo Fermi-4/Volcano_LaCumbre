@@ -1,8 +1,16 @@
-GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
- components {
-  SCR_MapDescriptorComponent "{59F288D5B5D9C274}" {
-   DisplayName "RidgelineSupply"
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  components {
+   SCR_MapDescriptorComponent "{59F288D5B5D9C274}" {
+    DisplayName "RidgelineSupply"
+   }
   }
+  coords 2384.095 1360.566 2659.368
  }
- coords 2393.612 1368.581 2688.654
+ PreludeSupplySouth {
+  coords 1923.611 1267.847 2210.534
+ }
+ {
+  coords 1685.912 1200.296 3573.781
+ }
 }
