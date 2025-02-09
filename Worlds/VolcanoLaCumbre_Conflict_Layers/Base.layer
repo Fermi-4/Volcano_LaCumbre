@@ -126,10 +126,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
   coords 4044.622 580.803 4307.903
  }
- {
+ SandDune {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_sBaseName "Sand Dune"
+    m_sBaseNameUpper "SAND DUNE"
+    m_sMapLocationName "Sand Dune"
    }
   }
   coords 4984.333 577.408 3200.222
